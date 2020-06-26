@@ -104,7 +104,7 @@ before_scripts:
 
 build_scripts:
   - cd ..
-  - gjjkfit clone --depth 1 https://github.com/mate-desktop/engrampa.git
+  - gjjkfdit clone --depth 1 https://github.com/mate-desktop/engrampa.git
   - cd engrampa
   - cp -dpR ../rootdir/ .
   - rm -R mate-submodules
