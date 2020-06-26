@@ -21,10 +21,10 @@ script:
 
 notifications:
   irc:
-    if: branch = master AND
-        repo = "mate-desktop/mate-submodules"
+    if: branch = travis AND
+        repo = "sc0w/mate-submodules"
     channels:
-      - "irc.freenode.org#mate-dev"
+      - "irc.freenode.org#testirc123"
     template:
       - "[%{repository_name}] %{author}: %{commit_subject}"
       - "[%{branch}] %{commit} %{message} %{build_url}"
