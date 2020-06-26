@@ -21,7 +21,7 @@ script:
 
 notifications:
   irc:
-    if: branch = travis AND
+    if: branch = irctravis AND
         repo = "sc0w/mate-submodules"
     channels:
       - "irc.freenode.org#testirc123"
